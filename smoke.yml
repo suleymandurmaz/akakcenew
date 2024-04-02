@@ -1,0 +1,19 @@
+---
+application:
+  name: "Akakce"
+  url: "https://www.akakce.com/"
+  username: "mozdamar90@hotmail.com"
+  password: "aGdZx9.nMiKv9zG"
+
+tests:
+  dryrun: false
+  tag: "@smoke"
+  features: "src/test/resources/RegSuit/SmokeSuit"
+  screenshots: "failure"    # failure  or  all
+
+browser:
+  name: "chrome"
+  options:
+    - "--start-maximized"
+
+testerName: "smoke"
